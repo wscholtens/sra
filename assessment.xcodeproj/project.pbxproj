@@ -15,6 +15,9 @@
 		45386B93187CA51B00168C83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45386B92187CA51B00168C83 /* UIKit.framework */; };
 		45386B95187CA51B00168C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45386B94187CA51B00168C83 /* Foundation.framework */; };
 		45386B97187CA51B00168C83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45386B96187CA51B00168C83 /* CoreGraphics.framework */; };
+		457AFA7E187CE09E0025AF07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DDA187CDCCA001103A1 /* AppDelegate.m */; };
+		457AFA7F187CE0A50025AF07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DDC187CDCD3001103A1 /* ViewController.m */; };
+		457AFA80187CE0AA0025AF07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DD8187CDCBA001103A1 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,6 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457AFA80187CE0AA0025AF07 /* main.m in Sources */,
+				457AFA7F187CE0A50025AF07 /* ViewController.m in Sources */,
+				457AFA7E187CE09E0025AF07 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
