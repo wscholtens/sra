@@ -18,6 +18,22 @@
 		457AFA7E187CE09E0025AF07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DDA187CDCCA001103A1 /* AppDelegate.m */; };
 		457AFA7F187CE0A50025AF07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DDC187CDCD3001103A1 /* ViewController.m */; };
 		457AFA80187CE0AA0025AF07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DD8187CDCBA001103A1 /* main.m */; };
+		457AFA94187CE4480025AF07 /* simrent_backgroundsmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA82187CE4480025AF07 /* simrent_backgroundsmall.jpg */; };
+		457AFA95187CE4480025AF07 /* back4.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA84187CE4480025AF07 /* back4.png */; };
+		457AFA96187CE4480025AF07 /* back4_night.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA85187CE4480025AF07 /* back4_night.png */; };
+		457AFA97187CE4480025AF07 /* checked.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA86187CE4480025AF07 /* checked.jpeg */; };
+		457AFA98187CE4480025AF07 /* checked_night.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA87187CE4480025AF07 /* checked_night.jpeg */; };
+		457AFA99187CE4480025AF07 /* delete2.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA88187CE4480025AF07 /* delete2.png */; };
+		457AFA9A187CE4480025AF07 /* emptyhtmlbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA89187CE4480025AF07 /* emptyhtmlbox.png */; };
+		457AFA9B187CE4480025AF07 /* fullhtmlbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA8A187CE4480025AF07 /* fullhtmlbox.png */; };
+		457AFA9C187CE4480025AF07 /* play4.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA8B187CE4480025AF07 /* play4.png */; };
+		457AFA9D187CE4480025AF07 /* play4_night.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA8C187CE4480025AF07 /* play4_night.png */; };
+		457AFA9E187CE4480025AF07 /* unchecked.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA8D187CE4480025AF07 /* unchecked.jpeg */; };
+		457AFA9F187CE4480025AF07 /* unchecked_night.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA8E187CE4480025AF07 /* unchecked_night.jpeg */; };
+		457AFAA0187CE4480025AF07 /* SimRent_white_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA90187CE4480025AF07 /* SimRent_white_114x114.png */; };
+		457AFAA2187CE4480025AF07 /* SimRent_white_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA92187CE4480025AF07 /* SimRent_white_57x57.png */; };
+		457AFAAA187CE4F60025AF07 /* SimRent_white_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFAA8187CE4F60025AF07 /* SimRent_white_72x72.png */; };
+		457AFAAB187CE4F60025AF07 /* SimRent_white_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFAA9187CE4F60025AF07 /* SimRent_white_144x144.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +53,22 @@
 		45386B92187CA51B00168C83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		45386B94187CA51B00168C83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45386B96187CA51B00168C83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		457AFA82187CE4480025AF07 /* simrent_backgroundsmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simrent_backgroundsmall.jpg; sourceTree = "<group>"; };
+		457AFA84187CE4480025AF07 /* back4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back4.png; sourceTree = "<group>"; };
+		457AFA85187CE4480025AF07 /* back4_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back4_night.png; sourceTree = "<group>"; };
+		457AFA86187CE4480025AF07 /* checked.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checked.jpeg; sourceTree = "<group>"; };
+		457AFA87187CE4480025AF07 /* checked_night.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checked_night.jpeg; sourceTree = "<group>"; };
+		457AFA88187CE4480025AF07 /* delete2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete2.png; sourceTree = "<group>"; };
+		457AFA89187CE4480025AF07 /* emptyhtmlbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyhtmlbox.png; sourceTree = "<group>"; };
+		457AFA8A187CE4480025AF07 /* fullhtmlbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullhtmlbox.png; sourceTree = "<group>"; };
+		457AFA8B187CE4480025AF07 /* play4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play4.png; sourceTree = "<group>"; };
+		457AFA8C187CE4480025AF07 /* play4_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play4_night.png; sourceTree = "<group>"; };
+		457AFA8D187CE4480025AF07 /* unchecked.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unchecked.jpeg; sourceTree = "<group>"; };
+		457AFA8E187CE4480025AF07 /* unchecked_night.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unchecked_night.jpeg; sourceTree = "<group>"; };
+		457AFA90187CE4480025AF07 /* SimRent_white_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimRent_white_114x114.png; sourceTree = "<group>"; };
+		457AFA92187CE4480025AF07 /* SimRent_white_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimRent_white_57x57.png; sourceTree = "<group>"; };
+		457AFAA8187CE4F60025AF07 /* SimRent_white_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimRent_white_72x72.png; sourceTree = "<group>"; };
+		457AFAA9187CE4F60025AF07 /* SimRent_white_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimRent_white_144x144.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +127,9 @@
 		45296DC9187CDBB1001103A1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				457AFA81187CE4480025AF07 /* Backgrounds */,
+				457AFA83187CE4480025AF07 /* Buttons */,
+				457AFA8F187CE4480025AF07 /* Icons */,
 				45296DD0187CDCAB001103A1 /* Default-568h@2x.png */,
 				45296DD1187CDCAB001103A1 /* Default.png */,
 				45296DD2187CDCAB001103A1 /* Default@2x.png */,
@@ -137,6 +172,43 @@
 				45296DC5187CDB8D001103A1 /* Resources */,
 			);
 			path = assessment;
+			sourceTree = "<group>";
+		};
+		457AFA81187CE4480025AF07 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				457AFA82187CE4480025AF07 /* simrent_backgroundsmall.jpg */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		457AFA83187CE4480025AF07 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				457AFA84187CE4480025AF07 /* back4.png */,
+				457AFA85187CE4480025AF07 /* back4_night.png */,
+				457AFA86187CE4480025AF07 /* checked.jpeg */,
+				457AFA87187CE4480025AF07 /* checked_night.jpeg */,
+				457AFA88187CE4480025AF07 /* delete2.png */,
+				457AFA89187CE4480025AF07 /* emptyhtmlbox.png */,
+				457AFA8A187CE4480025AF07 /* fullhtmlbox.png */,
+				457AFA8B187CE4480025AF07 /* play4.png */,
+				457AFA8C187CE4480025AF07 /* play4_night.png */,
+				457AFA8D187CE4480025AF07 /* unchecked.jpeg */,
+				457AFA8E187CE4480025AF07 /* unchecked_night.jpeg */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		457AFA8F187CE4480025AF07 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				457AFAA8187CE4F60025AF07 /* SimRent_white_72x72.png */,
+				457AFAA9187CE4F60025AF07 /* SimRent_white_144x144.png */,
+				457AFA90187CE4480025AF07 /* SimRent_white_114x114.png */,
+				457AFA92187CE4480025AF07 /* SimRent_white_57x57.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +267,22 @@
 				45296DD5187CDCAB001103A1 /* Default@2x.png in Resources */,
 				45296DE1187CDD27001103A1 /* InfoPlist.strings in Resources */,
 				45296DE2187CDD27001103A1 /* MainStoryboard.storyboard in Resources */,
+				457AFA94187CE4480025AF07 /* simrent_backgroundsmall.jpg in Resources */,
+				457AFA95187CE4480025AF07 /* back4.png in Resources */,
+				457AFA96187CE4480025AF07 /* back4_night.png in Resources */,
+				457AFA97187CE4480025AF07 /* checked.jpeg in Resources */,
+				457AFA98187CE4480025AF07 /* checked_night.jpeg in Resources */,
+				457AFA99187CE4480025AF07 /* delete2.png in Resources */,
+				457AFA9A187CE4480025AF07 /* emptyhtmlbox.png in Resources */,
+				457AFA9B187CE4480025AF07 /* fullhtmlbox.png in Resources */,
+				457AFA9C187CE4480025AF07 /* play4.png in Resources */,
+				457AFA9D187CE4480025AF07 /* play4_night.png in Resources */,
+				457AFA9E187CE4480025AF07 /* unchecked.jpeg in Resources */,
+				457AFA9F187CE4480025AF07 /* unchecked_night.jpeg in Resources */,
+				457AFAA0187CE4480025AF07 /* SimRent_white_114x114.png in Resources */,
+				457AFAA2187CE4480025AF07 /* SimRent_white_57x57.png in Resources */,
+				457AFAAA187CE4F60025AF07 /* SimRent_white_72x72.png in Resources */,
+				457AFAAB187CE4F60025AF07 /* SimRent_white_144x144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
