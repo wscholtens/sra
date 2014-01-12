@@ -11,12 +11,32 @@
 		45296DD4187CDCAB001103A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45296DD1187CDCAB001103A1 /* Default.png */; };
 		45296DD5187CDCAB001103A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45296DD2187CDCAB001103A1 /* Default@2x.png */; };
 		45296DE1187CDD27001103A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45296DDD187CDD27001103A1 /* InfoPlist.strings */; };
-		45296DE2187CDD27001103A1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45296DDF187CDD27001103A1 /* MainStoryboard.storyboard */; };
+		4537C8FF1882D176000A398B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4537C8FD1882D176000A398B /* MainStoryboard.storyboard */; };
+		4537C95E1882D3F2000A398B /* P4PConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C93C1882D3F2000A398B /* P4PConnectionController.m */; };
+		4537C95F1882D3F2000A398B /* P4PDatabaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C93E1882D3F2000A398B /* P4PDatabaseController.m */; };
+		4537C9601882D3F2000A398B /* P4PAssessmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9411882D3F2000A398B /* P4PAssessmentViewController.m */; };
+		4537C9611882D3F2000A398B /* P4PMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9431882D3F2000A398B /* P4PMainMenuViewController.m */; };
+		4537C9621882D3F2000A398B /* P4PNewAssessmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9451882D3F2000A398B /* P4PNewAssessmentViewController.m */; };
+		4537C9631882D3F2000A398B /* P4PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9471882D3F2000A398B /* P4PViewController.m */; };
+		4537C9641882D3F2000A398B /* P4PAssessment+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C94C1882D3F2000A398B /* P4PAssessment+Remote.m */; };
+		4537C9651882D3F2000A398B /* P4PCrewmember+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C94E1882D3F2000A398B /* P4PCrewmember+Remote.m */; };
+		4537C9661882D3F2000A398B /* P4PResult+Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9501882D3F2000A398B /* P4PResult+Remote.m */; };
+		4537C9671882D3F2000A398B /* P4PAssessment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9531882D3F2000A398B /* P4PAssessment.m */; };
+		4537C9681882D3F2000A398B /* P4PCrewmember.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9551882D3F2000A398B /* P4PCrewmember.m */; };
+		4537C9691882D3F2000A398B /* P4PResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9571882D3F2000A398B /* P4PResult.m */; };
+		4537C96A1882D3F2000A398B /* P4PDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9581882D3F2000A398B /* P4PDatabase.xcdatamodeld */; };
+		4537C96B1882D3F2000A398B /* NSDictionary+JSon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C95C1882D3F2000A398B /* NSDictionary+JSon.m */; };
+		4537C97B1882D4C3000A398B /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9711882D4C3000A398B /* DCRoundSwitch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4537C97C1882D4C3000A398B /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9731882D4C3000A398B /* DCRoundSwitchKnobLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4537C97D1882D4C3000A398B /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9751882D4C3000A398B /* DCRoundSwitchOutlineLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4537C97E1882D4C3000A398B /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C9771882D4C3000A398B /* DCRoundSwitchToggleLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4537C97F1882D4C3000A398B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C97A1882D4C3000A398B /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4537C9811882D611000A398B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4537C9801882D611000A398B /* QuartzCore.framework */; };
+		4537C9831882D617000A398B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4537C9821882D617000A398B /* CoreData.framework */; };
+		4537C9841882D6B4000A398B /* P4PAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4537C96D1882D438000A398B /* P4PAppDelegate.m */; };
 		45386B93187CA51B00168C83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45386B92187CA51B00168C83 /* UIKit.framework */; };
 		45386B95187CA51B00168C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45386B94187CA51B00168C83 /* Foundation.framework */; };
 		45386B97187CA51B00168C83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45386B96187CA51B00168C83 /* CoreGraphics.framework */; };
-		457AFA7E187CE09E0025AF07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DDA187CDCCA001103A1 /* AppDelegate.m */; };
-		457AFA7F187CE0A50025AF07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DDC187CDCD3001103A1 /* ViewController.m */; };
 		457AFA80187CE0AA0025AF07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45296DD8187CDCBA001103A1 /* main.m */; };
 		457AFA94187CE4480025AF07 /* simrent_backgroundsmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA82187CE4480025AF07 /* simrent_backgroundsmall.jpg */; };
 		457AFA95187CE4480025AF07 /* back4.png in Resources */ = {isa = PBXBuildFile; fileRef = 457AFA84187CE4480025AF07 /* back4.png */; };
@@ -43,12 +63,49 @@
 		45296DD6187CDCBA001103A1 /* assessment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "assessment-Info.plist"; sourceTree = "<group>"; };
 		45296DD7187CDCBA001103A1 /* assessment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "assessment-Prefix.pch"; sourceTree = "<group>"; };
 		45296DD8187CDCBA001103A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		45296DD9187CDCCA001103A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		45296DDA187CDCCA001103A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45296DDB187CDCD3001103A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45296DDC187CDCD3001103A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		45296DDE187CDD27001103A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		45296DE0187CDD27001103A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4537C8FE1882D176000A398B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4537C93B1882D3F2000A398B /* P4PConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PConnectionController.h; sourceTree = "<group>"; };
+		4537C93C1882D3F2000A398B /* P4PConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PConnectionController.m; sourceTree = "<group>"; };
+		4537C93D1882D3F2000A398B /* P4PDatabaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PDatabaseController.h; sourceTree = "<group>"; };
+		4537C93E1882D3F2000A398B /* P4PDatabaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PDatabaseController.m; sourceTree = "<group>"; };
+		4537C9401882D3F2000A398B /* P4PAssessmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PAssessmentViewController.h; sourceTree = "<group>"; };
+		4537C9411882D3F2000A398B /* P4PAssessmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PAssessmentViewController.m; sourceTree = "<group>"; };
+		4537C9421882D3F2000A398B /* P4PMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PMainMenuViewController.h; sourceTree = "<group>"; };
+		4537C9431882D3F2000A398B /* P4PMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PMainMenuViewController.m; sourceTree = "<group>"; };
+		4537C9441882D3F2000A398B /* P4PNewAssessmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PNewAssessmentViewController.h; sourceTree = "<group>"; };
+		4537C9451882D3F2000A398B /* P4PNewAssessmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PNewAssessmentViewController.m; sourceTree = "<group>"; };
+		4537C9461882D3F2000A398B /* P4PViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PViewController.h; sourceTree = "<group>"; };
+		4537C9471882D3F2000A398B /* P4PViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PViewController.m; sourceTree = "<group>"; };
+		4537C94B1882D3F2000A398B /* P4PAssessment+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "P4PAssessment+Remote.h"; sourceTree = "<group>"; };
+		4537C94C1882D3F2000A398B /* P4PAssessment+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "P4PAssessment+Remote.m"; sourceTree = "<group>"; };
+		4537C94D1882D3F2000A398B /* P4PCrewmember+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "P4PCrewmember+Remote.h"; sourceTree = "<group>"; };
+		4537C94E1882D3F2000A398B /* P4PCrewmember+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "P4PCrewmember+Remote.m"; sourceTree = "<group>"; };
+		4537C94F1882D3F2000A398B /* P4PResult+Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "P4PResult+Remote.h"; sourceTree = "<group>"; };
+		4537C9501882D3F2000A398B /* P4PResult+Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "P4PResult+Remote.m"; sourceTree = "<group>"; };
+		4537C9521882D3F2000A398B /* P4PAssessment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PAssessment.h; sourceTree = "<group>"; };
+		4537C9531882D3F2000A398B /* P4PAssessment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PAssessment.m; sourceTree = "<group>"; };
+		4537C9541882D3F2000A398B /* P4PCrewmember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PCrewmember.h; sourceTree = "<group>"; };
+		4537C9551882D3F2000A398B /* P4PCrewmember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PCrewmember.m; sourceTree = "<group>"; };
+		4537C9561882D3F2000A398B /* P4PResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P4PResult.h; sourceTree = "<group>"; };
+		4537C9571882D3F2000A398B /* P4PResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P4PResult.m; sourceTree = "<group>"; };
+		4537C9591882D3F2000A398B /* P4PDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = P4PDatabase.xcdatamodel; sourceTree = "<group>"; };
+		4537C95B1882D3F2000A398B /* NSDictionary+JSon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSon.h"; sourceTree = "<group>"; };
+		4537C95C1882D3F2000A398B /* NSDictionary+JSon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSon.m"; sourceTree = "<group>"; };
+		4537C96C1882D438000A398B /* P4PAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = P4PAppDelegate.h; sourceTree = "<group>"; };
+		4537C96D1882D438000A398B /* P4PAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = P4PAppDelegate.m; sourceTree = "<group>"; };
+		4537C9701882D4C3000A398B /* DCRoundSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitch.h; sourceTree = "<group>"; };
+		4537C9711882D4C3000A398B /* DCRoundSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitch.m; sourceTree = "<group>"; };
+		4537C9721882D4C3000A398B /* DCRoundSwitchKnobLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchKnobLayer.h; sourceTree = "<group>"; };
+		4537C9731882D4C3000A398B /* DCRoundSwitchKnobLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchKnobLayer.m; sourceTree = "<group>"; };
+		4537C9741882D4C3000A398B /* DCRoundSwitchOutlineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchOutlineLayer.h; sourceTree = "<group>"; };
+		4537C9751882D4C3000A398B /* DCRoundSwitchOutlineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchOutlineLayer.m; sourceTree = "<group>"; };
+		4537C9761882D4C3000A398B /* DCRoundSwitchToggleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchToggleLayer.h; sourceTree = "<group>"; };
+		4537C9771882D4C3000A398B /* DCRoundSwitchToggleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchToggleLayer.m; sourceTree = "<group>"; };
+		4537C9791882D4C3000A398B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4537C97A1882D4C3000A398B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4537C9801882D611000A398B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4537C9821882D617000A398B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		45386B8F187CA51B00168C83 /* assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45386B92187CA51B00168C83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		45386B94187CA51B00168C83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4537C9831882D617000A398B /* CoreData.framework in Frameworks */,
+				4537C9811882D611000A398B /* QuartzCore.framework in Frameworks */,
 				45386B93187CA51B00168C83 /* UIKit.framework in Frameworks */,
 				45386B95187CA51B00168C83 /* Foundation.framework in Frameworks */,
 				45386B97187CA51B00168C83 /* CoreGraphics.framework in Frameworks */,
@@ -91,6 +150,7 @@
 				45296DD6187CDCBA001103A1 /* assessment-Info.plist */,
 				45296DD7187CDCBA001103A1 /* assessment-Prefix.pch */,
 				45296DD8187CDCBA001103A1 /* main.m */,
+				4537C96E1882D4C3000A398B /* Frameworks */,
 				45296DC9187CDBB1001103A1 /* Images */,
 			);
 			path = Resources;
@@ -99,9 +159,12 @@
 		45296DC6187CDB96001103A1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				45296DD9187CDCCA001103A1 /* AppDelegate.h */,
-				45296DDA187CDCCA001103A1 /* AppDelegate.m */,
-				45296DC8187CDBA8001103A1 /* ViewControllers */,
+				4537C96C1882D438000A398B /* P4PAppDelegate.h */,
+				4537C96D1882D438000A398B /* P4PAppDelegate.m */,
+				4537C93A1882D3F2000A398B /* controllers */,
+				4537C9481882D3F2000A398B /* model */,
+				4537C95A1882D3F2000A398B /* utility */,
+				4537C95D1882D3F2000A398B /* views */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -109,19 +172,10 @@
 		45296DC7187CDB9E001103A1 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
+				4537C8FD1882D176000A398B /* MainStoryboard.storyboard */,
 				45296DDD187CDD27001103A1 /* InfoPlist.strings */,
-				45296DDF187CDD27001103A1 /* MainStoryboard.storyboard */,
 			);
 			path = en.lproj;
-			sourceTree = "<group>";
-		};
-		45296DC8187CDBA8001103A1 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				45296DDB187CDCD3001103A1 /* ViewController.h */,
-				45296DDC187CDCD3001103A1 /* ViewController.m */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		45296DC9187CDBB1001103A1 /* Images */ = {
@@ -137,9 +191,131 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		4537C93A1882D3F2000A398B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4537C93B1882D3F2000A398B /* P4PConnectionController.h */,
+				4537C93C1882D3F2000A398B /* P4PConnectionController.m */,
+				4537C93D1882D3F2000A398B /* P4PDatabaseController.h */,
+				4537C93E1882D3F2000A398B /* P4PDatabaseController.m */,
+				4537C93F1882D3F2000A398B /* ViewControllers */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4537C93F1882D3F2000A398B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4537C9401882D3F2000A398B /* P4PAssessmentViewController.h */,
+				4537C9411882D3F2000A398B /* P4PAssessmentViewController.m */,
+				4537C9421882D3F2000A398B /* P4PMainMenuViewController.h */,
+				4537C9431882D3F2000A398B /* P4PMainMenuViewController.m */,
+				4537C9441882D3F2000A398B /* P4PNewAssessmentViewController.h */,
+				4537C9451882D3F2000A398B /* P4PNewAssessmentViewController.m */,
+				4537C9461882D3F2000A398B /* P4PViewController.h */,
+				4537C9471882D3F2000A398B /* P4PViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4537C9481882D3F2000A398B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4537C9491882D3F2000A398B /* core data */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4537C9491882D3F2000A398B /* core data */ = {
+			isa = PBXGroup;
+			children = (
+				4537C94A1882D3F2000A398B /* categories */,
+				4537C9511882D3F2000A398B /* nsmanagedobject */,
+				4537C9581882D3F2000A398B /* P4PDatabase.xcdatamodeld */,
+			);
+			path = "core data";
+			sourceTree = "<group>";
+		};
+		4537C94A1882D3F2000A398B /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				4537C94B1882D3F2000A398B /* P4PAssessment+Remote.h */,
+				4537C94C1882D3F2000A398B /* P4PAssessment+Remote.m */,
+				4537C94D1882D3F2000A398B /* P4PCrewmember+Remote.h */,
+				4537C94E1882D3F2000A398B /* P4PCrewmember+Remote.m */,
+				4537C94F1882D3F2000A398B /* P4PResult+Remote.h */,
+				4537C9501882D3F2000A398B /* P4PResult+Remote.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		4537C9511882D3F2000A398B /* nsmanagedobject */ = {
+			isa = PBXGroup;
+			children = (
+				4537C9521882D3F2000A398B /* P4PAssessment.h */,
+				4537C9531882D3F2000A398B /* P4PAssessment.m */,
+				4537C9541882D3F2000A398B /* P4PCrewmember.h */,
+				4537C9551882D3F2000A398B /* P4PCrewmember.m */,
+				4537C9561882D3F2000A398B /* P4PResult.h */,
+				4537C9571882D3F2000A398B /* P4PResult.m */,
+			);
+			path = nsmanagedobject;
+			sourceTree = "<group>";
+		};
+		4537C95A1882D3F2000A398B /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				4537C95B1882D3F2000A398B /* NSDictionary+JSon.h */,
+				4537C95C1882D3F2000A398B /* NSDictionary+JSon.m */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		4537C95D1882D3F2000A398B /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		4537C96E1882D4C3000A398B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4537C96F1882D4C3000A398B /* DCRoundSwitch */,
+				4537C9781882D4C3000A398B /* MBProgressHUD */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		4537C96F1882D4C3000A398B /* DCRoundSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				4537C9701882D4C3000A398B /* DCRoundSwitch.h */,
+				4537C9711882D4C3000A398B /* DCRoundSwitch.m */,
+				4537C9721882D4C3000A398B /* DCRoundSwitchKnobLayer.h */,
+				4537C9731882D4C3000A398B /* DCRoundSwitchKnobLayer.m */,
+				4537C9741882D4C3000A398B /* DCRoundSwitchOutlineLayer.h */,
+				4537C9751882D4C3000A398B /* DCRoundSwitchOutlineLayer.m */,
+				4537C9761882D4C3000A398B /* DCRoundSwitchToggleLayer.h */,
+				4537C9771882D4C3000A398B /* DCRoundSwitchToggleLayer.m */,
+			);
+			path = DCRoundSwitch;
+			sourceTree = "<group>";
+		};
+		4537C9781882D4C3000A398B /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4537C9791882D4C3000A398B /* MBProgressHUD.h */,
+				4537C97A1882D4C3000A398B /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		45386B86187CA51B00168C83 = {
 			isa = PBXGroup;
 			children = (
+				4537C9821882D617000A398B /* CoreData.framework */,
+				4537C9801882D611000A398B /* QuartzCore.framework */,
 				45386B98187CA51B00168C83 /* assessment */,
 				45386B91187CA51B00168C83 /* Frameworks */,
 				45386B90187CA51B00168C83 /* Products */,
@@ -266,7 +442,6 @@
 				45296DD4187CDCAB001103A1 /* Default.png in Resources */,
 				45296DD5187CDCAB001103A1 /* Default@2x.png in Resources */,
 				45296DE1187CDD27001103A1 /* InfoPlist.strings in Resources */,
-				45296DE2187CDD27001103A1 /* MainStoryboard.storyboard in Resources */,
 				457AFA94187CE4480025AF07 /* simrent_backgroundsmall.jpg in Resources */,
 				457AFA95187CE4480025AF07 /* back4.png in Resources */,
 				457AFA96187CE4480025AF07 /* back4_night.png in Resources */,
@@ -283,6 +458,7 @@
 				457AFAA2187CE4480025AF07 /* SimRent_white_57x57.png in Resources */,
 				457AFAAA187CE4F60025AF07 /* SimRent_white_72x72.png in Resources */,
 				457AFAAB187CE4F60025AF07 /* SimRent_white_144x144.png in Resources */,
+				4537C8FF1882D176000A398B /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +469,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4537C9841882D6B4000A398B /* P4PAppDelegate.m in Sources */,
 				457AFA80187CE0AA0025AF07 /* main.m in Sources */,
-				457AFA7F187CE0A50025AF07 /* ViewController.m in Sources */,
-				457AFA7E187CE09E0025AF07 /* AppDelegate.m in Sources */,
+				4537C95E1882D3F2000A398B /* P4PConnectionController.m in Sources */,
+				4537C95F1882D3F2000A398B /* P4PDatabaseController.m in Sources */,
+				4537C9601882D3F2000A398B /* P4PAssessmentViewController.m in Sources */,
+				4537C9611882D3F2000A398B /* P4PMainMenuViewController.m in Sources */,
+				4537C9621882D3F2000A398B /* P4PNewAssessmentViewController.m in Sources */,
+				4537C9631882D3F2000A398B /* P4PViewController.m in Sources */,
+				4537C9641882D3F2000A398B /* P4PAssessment+Remote.m in Sources */,
+				4537C9651882D3F2000A398B /* P4PCrewmember+Remote.m in Sources */,
+				4537C9661882D3F2000A398B /* P4PResult+Remote.m in Sources */,
+				4537C9671882D3F2000A398B /* P4PAssessment.m in Sources */,
+				4537C9681882D3F2000A398B /* P4PCrewmember.m in Sources */,
+				4537C9691882D3F2000A398B /* P4PResult.m in Sources */,
+				4537C96A1882D3F2000A398B /* P4PDatabase.xcdatamodeld in Sources */,
+				4537C96B1882D3F2000A398B /* NSDictionary+JSon.m in Sources */,
+				4537C97B1882D4C3000A398B /* DCRoundSwitch.m in Sources */,
+				4537C97C1882D4C3000A398B /* DCRoundSwitchKnobLayer.m in Sources */,
+				4537C97D1882D4C3000A398B /* DCRoundSwitchOutlineLayer.m in Sources */,
+				4537C97E1882D4C3000A398B /* DCRoundSwitchToggleLayer.m in Sources */,
+				4537C97F1882D4C3000A398B /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,10 +504,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		45296DDF187CDD27001103A1 /* MainStoryboard.storyboard */ = {
+		4537C8FD1882D176000A398B /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45296DE0187CDD27001103A1 /* en */,
+				4537C8FE1882D176000A398B /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -423,6 +617,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4537C9581882D3F2000A398B /* P4PDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4537C9591882D3F2000A398B /* P4PDatabase.xcdatamodel */,
+			);
+			currentVersion = 4537C9591882D3F2000A398B /* P4PDatabase.xcdatamodel */;
+			path = P4PDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 45386B87187CA51B00168C83 /* Project object */;
 }

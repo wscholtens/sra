@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12F37" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="P4PAssessment" representedClassName="P4PAssessment" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crew" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="instructor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="package" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="session" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="results" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="P4PResult" inverseName="assessment" inverseEntity="P4PResult" syncable="YES"/>
+    </entity>
+    <entity name="P4PCrewmember" representedClassName="P4PCrewmember" syncable="YES">
+        <attribute name="crew" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="P4PResult" inverseName="crewmember" inverseEntity="P4PResult" syncable="YES"/>
+    </entity>
+    <entity name="P4PResult" representedClassName="P4PResult" syncable="YES">
+        <attribute name="grades" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="passed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="remarks" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="assessment" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="P4PAssessment" inverseName="results" inverseEntity="P4PAssessment" syncable="YES"/>
+        <relationship name="crewmember" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="P4PCrewmember" inverseName="results" inverseEntity="P4PCrewmember" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="P4PAssessment" positionX="0" positionY="0" width="128" height="165"/>
+        <element name="P4PCrewmember" positionX="304" positionY="93" width="128" height="105"/>
+        <element name="P4PResult" positionX="223" positionY="-162" width="128" height="150"/>
+    </elements>
+</model>
