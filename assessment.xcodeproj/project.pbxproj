@@ -314,8 +314,6 @@
 		45386B86187CA51B00168C83 = {
 			isa = PBXGroup;
 			children = (
-				4537C9821882D617000A398B /* CoreData.framework */,
-				4537C9801882D611000A398B /* QuartzCore.framework */,
 				45386B98187CA51B00168C83 /* assessment */,
 				45386B91187CA51B00168C83 /* Frameworks */,
 				45386B90187CA51B00168C83 /* Products */,
@@ -333,6 +331,8 @@
 		45386B91187CA51B00168C83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4537C9821882D617000A398B /* CoreData.framework */,
+				4537C9801882D611000A398B /* QuartzCore.framework */,
 				45386B92187CA51B00168C83 /* UIKit.framework */,
 				45386B94187CA51B00168C83 /* Foundation.framework */,
 				45386B96187CA51B00168C83 /* CoreGraphics.framework */,
